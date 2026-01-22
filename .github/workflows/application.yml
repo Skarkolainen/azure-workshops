@@ -39,7 +39,7 @@ jobs:
 
     # Restore .NET project dependencies
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./Workshop_2/Start/AzureWorkshop/AzureWorkshopApp/AzureWorkshopApp.csproj
 
     # Build the .NET project in Release mode
     - name: Build
