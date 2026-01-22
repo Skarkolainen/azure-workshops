@@ -16,4 +16,4 @@ jobs:
           echo "Running a simple script"
           echo "Current date and time: $(date)"
           echo "List of files in the repository:"
-          ls -la
+          ls ../ -la
