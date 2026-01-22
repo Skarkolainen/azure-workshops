@@ -9,4 +9,8 @@ jobs:
 
     steps:
       - name: Echo hello
-        run: echo "Hello from GitHub Actions"
+        run: |
+          echo "Running a simple script"
+          echo "Current date and time: $(date)"
+          echo "List of files in the repository:"
+          ls -la
